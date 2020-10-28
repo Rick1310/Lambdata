@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     REQUIRED = ["numpy", "pandas"]
 
 setuptools.setup(
-    name="lambdata-rick1310", # Replace with your own username
+    name="lambdata_rick1310", # Replace with your own username
     version="0.0.1",
     author="Rick1310",
     author_email="author@example.com",
