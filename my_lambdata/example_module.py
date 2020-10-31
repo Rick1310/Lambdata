@@ -15,7 +15,7 @@ def df_clean(df):
     hc_cols = [for col in col in df.describe(include='object').columns
                if df[col].nunique() > 500]
 
-    # Will take the identified columns and remove them from the df. 
+    # Will take the identified columns and remove them from the df."""" 
 
     df.drop(columns=hc_cols, inplace=True)
 
